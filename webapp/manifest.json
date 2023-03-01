@@ -151,6 +151,12 @@
                             "dateSettings": {
                                 "useDateRange": true
                             }
+                        },
+                        "tableSettings": {
+                            "type": "GridTable"
+                        },
+                        "dataLoadSettings": {
+                            "loadDataOnAppLaunch": "always"
                         }
                     }
                 }

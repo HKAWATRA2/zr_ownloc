@@ -11,13 +11,14 @@ builder:
       - /localService/**
   customTasks:
     - name: deploy-to-abap
-      afterTask: generateCachebusterInfo
+      afterTask: generateCachebusterInfo      
       configuration:
         target:
           url: http://sgd.vertexone.net:8000
-          client: "100"
+          client: "100"               
         app:
           name: ZR_OWNLOC
-          description: Owner Allocation Report
+          description: Owner Allocation
           package: ZV1_REPORTS
-          transport: SGDK900930
+          transport: SGDK907918
+          
