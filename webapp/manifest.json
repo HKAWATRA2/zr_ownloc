@@ -119,10 +119,12 @@
         },
         "extends": {
             "extensions": {
-                "sap.ui.viewExtensions": {
-                    "sap.suite.ui.generic.template.ListReport.view.ListReport": {}
+                "sap.ui.controllerExtensions": {
+                    "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+                        "controllerName": "zrownloc.zrownloc.ext.controller.Extends"
+                    }
                 }
-            }
+            }            
         },
         "contentDensities": {
             "compact": true,
